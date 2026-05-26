@@ -5,5 +5,19 @@ git config --global user.email "lucas.garofolo@gmail.com"
 2. Inicializar o git
 git init
 
-3. Criar o repo no GitHub
+3. Criar o repo no GitHub.com
 Nome do repo: Aula01
+
+4. Nesta etapa, é a etapa de desenvolvimento ou seja, alterações nos nossos arquivos. Site, projetos, arquivos texto, entre outros.
+
+5. Após a conclusão do desenvolvimento, adicionar os arquivos ao repo:
+git add .
+
+6. Comitar ao repositório com uma mensagem explicativa:
+git commit -m "Mensagem entre parênteses"
+
+7. Associar o nosso repo local com o remoto
+git remote add origin LINK_DO_REPO
+git branch -M main
+git push -u origin main 
+FAZER LOGIN E AUTORIZAR, SE NECESSÁRIO
